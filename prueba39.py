@@ -1,6 +1,7 @@
-def cli(ctx):
+def cli():
     ctx=90
     return ctx
-    
-print(cli.ctx)
+
+ma=cli
+print(ma())
 

@@ -8,4 +8,3 @@ def cli(ctx):
     ctx.obj={}
     
 cli.add_command(clients_commands.all)
-
