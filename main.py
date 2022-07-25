@@ -112,8 +112,8 @@ if __name__ == '__main__':
 
     if command == 'C':
         client = _get_client_from_user()
-
         create_client(client)
+        
     elif command == 'L':
         list_clients()
         

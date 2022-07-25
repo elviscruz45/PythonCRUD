@@ -1,7 +1,7 @@
 import uuid
 
 class Client:
-    def __init___(self,name,company,email,position,uid=None):
+    def __init__(self,name,company,email,position,uid=None):
         self.name=name
         self.company=company
         self.email=email
@@ -10,3 +10,8 @@ class Client:
         
     def to_dict(self):
         return vars(self)
+    
+    @staticmethod
+    def schema():
+        return ["name","company","email","position","uid"]
+    
